@@ -61,4 +61,3 @@ https://<instance public ip>
 exit # (logout from ubuntu@ip-172-..-79)
 terraform destroy -auto-approve
 ```
-terraform 
