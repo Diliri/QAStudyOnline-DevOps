@@ -1,4 +1,6 @@
 ---
 - import_playbook: 001_setup_apache.yml
-# - import_playbook: 002_setup_jenkins.yml
+- import_playbook: 002_setup_jenkins.yml
+- import_playbook: 003_setup_wildfly.yml
+- import_playbook: 004_setup_jenkins_slave.yml
 ####
