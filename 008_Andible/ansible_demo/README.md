@@ -55,3 +55,10 @@ https://<instance public ip>
 
 - Add slaves (linux, Windows, MacOs)
 - Integrate terraform with ansible in single pipeline with terraform provisioners
+
+#### Як завершити все:
+```
+exit # (logout from ubuntu@ip-172-..-79)
+terraform destroy -auto-approve
+```
+terraform 
